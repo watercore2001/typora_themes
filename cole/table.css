@@ -1,0 +1,37 @@
+/* 表格样式 */
+#write table:not(.md-grid-board) {
+  border: 2px solid var(--header-color);
+  border-collapse: separate;
+  word-break: initial;
+  border-radius: var(--block-border-radius);
+}
+
+table:not(.md-grid-board) th,
+table:not(.md-grid-board) td {
+  padding: 0.25em 1em;
+  border-left: 2px dashed var(--header-color);
+  border-bottom: 2px dashed var(--header-color);
+  transition: background-color 0.3s ease-out;
+}
+
+table tr th {
+  font-weight: bold;
+  background-color: var(--bg-color-table);
+}
+
+/* 去除边缘的边框 */
+table:not(.md-grid-board) tr td:first-child,
+table:not(.md-grid-board) tr th:first-child {
+  border-left: 0;
+}
+table:not(.md-grid-board) tr:last-child td {
+  border-bottom: 0;
+}
+
+/* 上面两个角的背景角度 */
+#write table:not(.md-grid-board) tr:first-child th:first-child {
+  border-top-left-radius: var(--block-border-radius);
+}
+#write table:not(.md-grid-board) tr:first-child th:last-child {
+  border-top-right-radius: var(--block-border-radius);
+}

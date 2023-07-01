@@ -1,0 +1,67 @@
+body {
+  font-family: var(--body-font);
+
+  color: var(--body-color);
+  -webkit-font-smoothing: antialiased; /* 抗锯齿 */
+  letter-spacing: 0;
+  margin: 0;
+  overflow-x: scroll; /* 水平滚动条 */
+}
+
+#write {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 30px 100px;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
+}
+
+/* 超链接 */
+a {
+  transition: 0.3s;
+  color: var(--reference-color);
+  text-decoration: none;
+}
+
+/* 目录 */
+a.md-toc-inner {
+  font-size: 1.2em;
+  line-height: 1.4;
+  white-space: pre-line;
+  border-bottom: none;
+  color: var(--reference-color);
+}
+.md-toc {
+  margin: 1em 0;
+}
+
+/* 透明渐变水平线 */
+hr {
+  width: 80%;
+  margin: 2em auto;
+  border: 0;
+  height: 0.2em;
+  background-image: linear-gradient(
+    to right,
+    rgba(254, 254, 254, 0),
+    var(--header-color),
+    rgba(253, 165, 165, 0)
+  );
+}
+
+/* 文本高亮 */
+#write span[md-inline="highlight"] mark {
+  background-color: var(--highlight-bg-color);
+  border-radius: var(--span-border-radius);
+  padding: 2px 4px;
+  margin: 0 2px;
+  color: var(--front-color);
+}
+
+#write del {
+  padding: 1px 2px;
+}

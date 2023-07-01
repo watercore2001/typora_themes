@@ -1,0 +1,24 @@
+:root {
+  /* 设计宗旨: 颜色不是越多越好, 而是越和谐越好, 并不要每个元素用一个颜色 */
+  /* body color */
+  --body-color: #32475a; /* 文本颜色 */
+  --header-color: #aaa; /* 点缀标题颜色 */
+  --reference-color: #487da0; /* 提示颜色: 超链接, 目录 */
+  --front-color: #c95405; /* 前景色 */
+  /* background color */
+  --bg-color-code: #f3ffee; /* 背景色1: 浅绿 */
+  --bg-color-quote1: #faf5e7; /* 背景色2: 浅黄 */
+  --bg-color-quote2: #fce498;
+  --bg-color-table: #eff8ff; /* 背景色3: 浅蓝 */
+  --number-color: #79c0e9; /* 序号颜色: 列表, 编号 */
+
+  /* font */
+  --title-font: "思源黑体", serif;
+  --body-font: "Times New Roman", "Source Han Serif", serif;
+  --code-font: "FiraCode NF", "Source Han Serif", sans-serif;
+
+  /* size */
+  --block-border-radius: 6px;
+  --span-border-radius: 2px;
+  font-size: 20px;
+}

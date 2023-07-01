@@ -1,0 +1,12 @@
+/* 脚注（上标） */
+#write .md-footnote {
+  color: var(--reference-color);
+}
+
+/* 脚注上标链接禁止显示下划线样式 */
+#write sup.md-footnote a {
+  color: inherit !important;
+  border-bottom: none;
+  padding: 1px;
+  background-color: inherit;
+}

@@ -1,0 +1,23 @@
+/* 图片 */
+.md-image {
+  margin: 15px auto 5px;
+}
+
+/* 图片自带 shadow 特性 */
+.md-image img {
+  border-radius: var(--block-border-radius);
+  box-shadow: var(--header-color) 0px 10px 15px;
+  background-size: 100% 100%;
+  cursor: default;
+  border-left: 0;
+  border-right: 0;
+}
+
+/* 图片上方的元数据 */
+.md-image > .md-meta {
+  border-radius: var(--span-border-radius);
+  font-family: var(--body-font);
+  padding: 2px 0 0 4px;
+  font-size: 0.9em;
+  color: inherit;
+}

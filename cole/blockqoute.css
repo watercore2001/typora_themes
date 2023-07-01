@@ -1,0 +1,6 @@
+blockquote {
+  border-left: 5px solid var(--bg-color-quote2);
+  padding: 10px 15px;
+  background-color: var(--bg-color-quote1);
+  position: relative;
+}

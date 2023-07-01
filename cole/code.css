@@ -1,0 +1,29 @@
+/* 代码块 */
+
+.CodeMirror pre {
+  font-family: var(--code-font);
+}
+.md-fences {
+  padding: 0.7em !important;
+  background: var(--bg-color-code);
+  border-radius: var(--block-border-radius);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  line-height: 1.6;
+}
+
+/* 代码块行号颜色 */
+.cm-s-inner .CodeMirror-linenumber {
+  /* width: 2ch !important; */
+  color: var(--number-color);
+}
+
+/* 行内代码 */
+#write code {
+  padding: 2px 4px;
+  border-radius: var(--span-border-radius);
+  font-family: var(--code-font);
+  font-size: 0.9rem;
+  color: var(--front-color);
+  background-color: var(--bg-color-code);
+}

@@ -1,0 +1,15 @@
+@media print {
+  html {
+    font-size: 14px !important;
+  }
+  table,
+  pre {
+    page-break-inside: avoid;
+  }
+  img[alt="std"] {
+    width: 70%;
+  }
+  img[alt="full"] {
+    width: 100%;
+  }
+}
